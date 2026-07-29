@@ -18,6 +18,10 @@ The platform helps in:
 
 
 ---
+## 🌐 Live Demo
+
+**🚀 Streamlit Application:**  
+https://water-intelligence-platform-cstzcbpjjx8c2fdhraebrp.streamlit.app/
 
 # 🚀 Features
 
