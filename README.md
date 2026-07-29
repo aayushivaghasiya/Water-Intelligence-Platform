@@ -63,6 +63,21 @@ Used for:
 - Plotly
 - Joblib
 - OpenWeather API
+## 📸 Application Screenshots
 
+### 🏠 Dashboard
+![Dashboard](screenshots/Water%20Intelligence%20Dashboard.png)
+
+### 💧 Water Prediction
+![Prediction](screenshots/AI%20Water%20Intelligence%20Prediction.png)
+
+### 🔧 Leakage Detection
+![Leakage Detection](screenshots/AI%20Water%20Leakage%20Detection.png)
+
+### 📊 Analytics
+![Analytics](screenshots/Water%20Analytics.png)
+
+### 🌦 Live Weather
+![Weather](screenshots/Live%20Weather.png)
 
 
