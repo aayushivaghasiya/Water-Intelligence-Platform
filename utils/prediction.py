@@ -15,15 +15,6 @@ lr_model = joblib.load(MODEL_DIR / "linear_regression.pkl")
 leakage_encoder = joblib.load(MODEL_DIR / "leakage_encoder.pkl")
 risk_encoder = joblib.load(MODEL_DIR / "risk_encoder.pkl")
 
-# Load Models
-rf_model = joblib.load("model/random_forest.pkl")
-lr_model = joblib.load("model/linear_regression.pkl")
-
-# Load Encoders
-leakage_encoder = joblib.load("model/leakage_encoder.pkl")
-risk_encoder = joblib.load("model/risk_encoder.pkl")
-
-
 def predict_water_shortage(input_data):
 
     data = input_data.copy()
