@@ -1,5 +1,19 @@
+
+from pathlib import Path
 import joblib
 import pandas as pd
+
+# Base project directory
+BASE_DIR = Path(__file__).resolve().parent.parent
+MODEL_DIR = BASE_DIR / "model"
+
+# Load Models
+rf_model = joblib.load(MODEL_DIR / "random_forest.pkl")
+lr_model = joblib.load(MODEL_DIR / "linear_regression.pkl")
+
+# Load Encoders
+leakage_encoder = joblib.load(MODEL_DIR / "leakage_encoder.pkl")
+risk_encoder = joblib.load(MODEL_DIR / "risk_encoder.pkl")
 
 # Load Models
 rf_model = joblib.load("model/random_forest.pkl")
